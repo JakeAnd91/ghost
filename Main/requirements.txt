@@ -1,0 +1,22 @@
+# Core audio + utils
+numpy==1.26.4
+sounddevice==0.5.0
+
+# Whisper STT (fast + efficient)
+faster-whisper==1.0.3
+
+# Ollama Python client
+ollama==0.2.1
+
+# Coqui TTS
+TTS==0.22.0
+
+# PyTorch with CUDA 11.8 (GPU acceleration for Whisper & TTS)
+torch==2.3.1+cu118
+torchvision==0.18.1+cu118
+torchaudio==2.3.1+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Helpful extras
+python-dotenv==1.0.1
+rich==13.7.1
